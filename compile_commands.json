@@ -1,0 +1,44 @@
+[
+{
+  "directory": "D:/road of cpp/self-code/asio-learn-code/build",
+  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DASIO_STANDALONE -DFMT_UNICODE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DYAML_CPP_STATIC_DEFINE -D_NOEXCEPT=noexcept -I\"D:\\road of cpp\\self-code\\asio-learn-code\\include\" -external:IC:\\Users\\33209\\.conan2\\p\\asioaf1eb798e94b4\\p\\include -external:IC:\\Users\\33209\\.conan2\\p\\nlohm0567ffc90cfc1\\p\\include -external:IC:\\Users\\33209\\.conan2\\p\\b\\spdlo7a4741f599a2d\\p\\include -external:IC:\\Users\\33209\\.conan2\\p\\b\\fmt412be43f1519a\\p\\include -external:IC:\\Users\\33209\\.conan2\\p\\b\\yaml-745be122deb1c\\p\\include -external:W0 /W4 /Od /Zi /DEBUG -std:c++20 -MDd /FoCMakeFiles\\tcp_echo_client.dir\\src\\asio_learn\\tcp_echo_client.cpp.obj /FdCMakeFiles\\tcp_echo_client.dir\\ /FS -c \"D:\\road of cpp\\self-code\\asio-learn-code\\src\\asio_learn\\tcp_echo_client.cpp\"",
+  "file": "D:/road of cpp/self-code/asio-learn-code/src/asio_learn/tcp_echo_client.cpp",
+  "output": "D:/road of cpp/self-code/asio-learn-code/build/CMakeFiles/tcp_echo_client.dir/src/asio_learn/tcp_echo_client.cpp.obj"
+},
+{
+  "directory": "D:/road of cpp/self-code/asio-learn-code/build",
+  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DASIO_STANDALONE -DFMT_UNICODE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DYAML_CPP_STATIC_DEFINE -D_NOEXCEPT=noexcept -I\"D:\\road of cpp\\self-code\\asio-learn-code\\include\" -external:IC:\\Users\\33209\\.conan2\\p\\asioaf1eb798e94b4\\p\\include -external:IC:\\Users\\33209\\.conan2\\p\\nlohm0567ffc90cfc1\\p\\include -external:IC:\\Users\\33209\\.conan2\\p\\b\\spdlo7a4741f599a2d\\p\\include -external:IC:\\Users\\33209\\.conan2\\p\\b\\fmt412be43f1519a\\p\\include -external:IC:\\Users\\33209\\.conan2\\p\\b\\yaml-745be122deb1c\\p\\include -external:W0 /W4 /Od /Zi /DEBUG -std:c++20 -MDd /FoCMakeFiles\\tcp_echo_server.dir\\src\\asio_learn\\tcp_echo_server.cpp.obj /FdCMakeFiles\\tcp_echo_server.dir\\ /FS -c \"D:\\road of cpp\\self-code\\asio-learn-code\\src\\asio_learn\\tcp_echo_server.cpp\"",
+  "file": "D:/road of cpp/self-code/asio-learn-code/src/asio_learn/tcp_echo_server.cpp",
+  "output": "D:/road of cpp/self-code/asio-learn-code/build/CMakeFiles/tcp_echo_server.dir/src/asio_learn/tcp_echo_server.cpp.obj"
+},
+{
+  "directory": "D:/road of cpp/self-code/asio-learn-code/build",
+  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DASIO_STANDALONE -DFMT_UNICODE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DYAML_CPP_STATIC_DEFINE -D_NOEXCEPT=noexcept -I\"D:\\road of cpp\\self-code\\asio-learn-code\\include\" -external:IC:\\Users\\33209\\.conan2\\p\\asioaf1eb798e94b4\\p\\include -external:IC:\\Users\\33209\\.conan2\\p\\nlohm0567ffc90cfc1\\p\\include -external:IC:\\Users\\33209\\.conan2\\p\\b\\spdlo7a4741f599a2d\\p\\include -external:IC:\\Users\\33209\\.conan2\\p\\b\\fmt412be43f1519a\\p\\include -external:IC:\\Users\\33209\\.conan2\\p\\b\\yaml-745be122deb1c\\p\\include -external:W0 /W4 /Od /Zi /DEBUG -std:c++20 -MDd /FoCMakeFiles\\tool_benchmark.dir\\src\\tools\\benchmark.cpp.obj /FdCMakeFiles\\tool_benchmark.dir\\ /FS -c \"D:\\road of cpp\\self-code\\asio-learn-code\\src\\tools\\benchmark.cpp\"",
+  "file": "D:/road of cpp/self-code/asio-learn-code/src/tools/benchmark.cpp",
+  "output": "D:/road of cpp/self-code/asio-learn-code/build/CMakeFiles/tool_benchmark.dir/src/tools/benchmark.cpp.obj"
+},
+{
+  "directory": "D:/road of cpp/self-code/asio-learn-code/build",
+  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DASIO_STANDALONE -DFMT_UNICODE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DYAML_CPP_STATIC_DEFINE -D_NOEXCEPT=noexcept -I\"D:\\road of cpp\\self-code\\asio-learn-code\\include\" -external:IC:\\Users\\33209\\.conan2\\p\\asioaf1eb798e94b4\\p\\include -external:IC:\\Users\\33209\\.conan2\\p\\nlohm0567ffc90cfc1\\p\\include -external:IC:\\Users\\33209\\.conan2\\p\\b\\spdlo7a4741f599a2d\\p\\include -external:IC:\\Users\\33209\\.conan2\\p\\b\\fmt412be43f1519a\\p\\include -external:IC:\\Users\\33209\\.conan2\\p\\b\\yaml-745be122deb1c\\p\\include -external:W0 /W4 /Od /Zi /DEBUG -std:c++20 -MDd /FoCMakeFiles\\tool_test_client.dir\\src\\tools\\test_client.cpp.obj /FdCMakeFiles\\tool_test_client.dir\\ /FS -c \"D:\\road of cpp\\self-code\\asio-learn-code\\src\\tools\\test_client.cpp\"",
+  "file": "D:/road of cpp/self-code/asio-learn-code/src/tools/test_client.cpp",
+  "output": "D:/road of cpp/self-code/asio-learn-code/build/CMakeFiles/tool_test_client.dir/src/tools/test_client.cpp.obj"
+},
+{
+  "directory": "D:/road of cpp/self-code/asio-learn-code/build",
+  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DASIO_STANDALONE -DFMT_UNICODE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DYAML_CPP_STATIC_DEFINE -D_NOEXCEPT=noexcept -I\"D:\\road of cpp\\self-code\\asio-learn-code\\include\" -external:IC:\\Users\\33209\\.conan2\\p\\asioaf1eb798e94b4\\p\\include -external:IC:\\Users\\33209\\.conan2\\p\\nlohm0567ffc90cfc1\\p\\include -external:IC:\\Users\\33209\\.conan2\\p\\b\\spdlo7a4741f599a2d\\p\\include -external:IC:\\Users\\33209\\.conan2\\p\\b\\fmt412be43f1519a\\p\\include -external:IC:\\Users\\33209\\.conan2\\p\\b\\yaml-745be122deb1c\\p\\include -external:W0 /W4 /Od /Zi /DEBUG -std:c++20 -MDd /FoCMakeFiles\\example_basic_client.dir\\examples\\basic_client.cpp.obj /FdCMakeFiles\\example_basic_client.dir\\ /FS -c \"D:\\road of cpp\\self-code\\asio-learn-code\\examples\\basic_client.cpp\"",
+  "file": "D:/road of cpp/self-code/asio-learn-code/examples/basic_client.cpp",
+  "output": "D:/road of cpp/self-code/asio-learn-code/build/CMakeFiles/example_basic_client.dir/examples/basic_client.cpp.obj"
+},
+{
+  "directory": "D:/road of cpp/self-code/asio-learn-code/build",
+  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DASIO_STANDALONE -DFMT_UNICODE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DYAML_CPP_STATIC_DEFINE -D_NOEXCEPT=noexcept -I\"D:\\road of cpp\\self-code\\asio-learn-code\\include\" -external:IC:\\Users\\33209\\.conan2\\p\\asioaf1eb798e94b4\\p\\include -external:IC:\\Users\\33209\\.conan2\\p\\nlohm0567ffc90cfc1\\p\\include -external:IC:\\Users\\33209\\.conan2\\p\\b\\spdlo7a4741f599a2d\\p\\include -external:IC:\\Users\\33209\\.conan2\\p\\b\\fmt412be43f1519a\\p\\include -external:IC:\\Users\\33209\\.conan2\\p\\b\\yaml-745be122deb1c\\p\\include -external:W0 /W4 /Od /Zi /DEBUG -std:c++20 -MDd /FoCMakeFiles\\example_basic_server.dir\\examples\\basic_server.cpp.obj /FdCMakeFiles\\example_basic_server.dir\\ /FS -c \"D:\\road of cpp\\self-code\\asio-learn-code\\examples\\basic_server.cpp\"",
+  "file": "D:/road of cpp/self-code/asio-learn-code/examples/basic_server.cpp",
+  "output": "D:/road of cpp/self-code/asio-learn-code/build/CMakeFiles/example_basic_server.dir/examples/basic_server.cpp.obj"
+},
+{
+  "directory": "D:/road of cpp/self-code/asio-learn-code/build",
+  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_UNICODE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DYAML_CPP_STATIC_DEFINE -D_NOEXCEPT=noexcept -I\"D:\\road of cpp\\self-code\\asio-learn-code\\include\" -external:IC:\\Users\\33209\\.conan2\\p\\b\\spdlo7a4741f599a2d\\p\\include -external:IC:\\Users\\33209\\.conan2\\p\\b\\fmt412be43f1519a\\p\\include -external:IC:\\Users\\33209\\.conan2\\p\\b\\yaml-745be122deb1c\\p\\include -external:W0 /W4 /Od /Zi /DEBUG -std:c++20 -MDd /FoCMakeFiles\\test_log.dir\\test\\src\\log_test.cpp.obj /FdCMakeFiles\\test_log.dir\\ /FS -c \"D:\\road of cpp\\self-code\\asio-learn-code\\test\\src\\log_test.cpp\"",
+  "file": "D:/road of cpp/self-code/asio-learn-code/test/src/log_test.cpp",
+  "output": "D:/road of cpp/self-code/asio-learn-code/build/CMakeFiles/test_log.dir/test/src/log_test.cpp.obj"
+}
+]

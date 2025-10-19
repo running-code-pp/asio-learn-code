@@ -1,0 +1,185 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Python: Setup Project",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"setup.py"
+			],
+			"group": "build",
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": false,
+				"panel": "shared",
+				"showReuseMessage": true,
+				"clear": false
+			},
+			"problemMatcher": [],
+			"detail": "运行 Python 项目配置脚本"
+		},
+		{
+			"label": "CMake: Configure",
+			"type": "shell",
+			"command": "cmake",
+			"args": [
+				"-B",
+				"${workspaceFolder}/build",
+				"-S",
+				"${workspaceFolder}",
+				"-DCMAKE_BUILD_TYPE=Debug",
+				"-DCMAKE_EXPORT_COMPILE_COMMANDS=ON"
+			],
+			"group": "build",
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": false,
+				"panel": "shared",
+				"showReuseMessage": true,
+				"clear": false
+			},
+			"problemMatcher": [],
+			"detail": "配置 CMake 项目"
+		},
+		{
+			"label": "CMake: Build Debug",
+			"type": "shell",
+			"command": "cmake",
+			"args": [
+				"--build",
+				"${workspaceFolder}/build",
+				"--config",
+				"Debug",
+				"--parallel"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": false,
+				"panel": "shared",
+				"showReuseMessage": true,
+				"clear": false
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"dependsOn": "CMake: Configure",
+			"detail": "构建 Debug 版本"
+		},
+		{
+			"label": "CMake: Build Release",
+			"type": "shell",
+			"command": "cmake",
+			"args": [
+				"-B",
+				"${workspaceFolder}/build",
+				"-S",
+				"${workspaceFolder}",
+				"-DCMAKE_BUILD_TYPE=Release",
+				"-DCMAKE_EXPORT_COMPILE_COMMANDS=ON",
+				"&&",
+				"cmake",
+				"--build",
+				"${workspaceFolder}/build",
+				"--config",
+				"Release",
+				"--parallel"
+			],
+			"group": "build",
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": false,
+				"panel": "shared",
+				"showReuseMessage": true,
+				"clear": false
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"detail": "构建 Release 版本"
+		},
+		{
+			"label": "CMake: Clean",
+			"type": "shell",
+			"command": "cmake",
+			"args": [
+				"--build",
+				"${workspaceFolder}/build",
+				"--target",
+				"clean"
+			],
+			"group": "build",
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": false,
+				"panel": "shared",
+				"showReuseMessage": true,
+				"clear": false
+			},
+			"problemMatcher": [],
+			"detail": "清理构建文件"
+		},
+		{
+			"label": "CMake: Run Tests",
+			"type": "shell",
+			"command": "ctest",
+			"args": [
+				"--test-dir",
+				"${workspaceFolder}/build",
+				"--output-on-failure"
+			],
+			"group": "test",
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": false,
+				"panel": "shared",
+				"showReuseMessage": true,
+				"clear": false
+			},
+			"problemMatcher": [],
+			"dependsOn": "CMake: Build Debug",
+			"detail": "运行测试"
+		},
+		{
+			"label": "CMake: Install",
+			"type": "shell",
+			"command": "cmake",
+			"args": [
+				"--install",
+				"${workspaceFolder}/build"
+			],
+			"group": "build",
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": false,
+				"panel": "shared",
+				"showReuseMessage": true,
+				"clear": false
+			},
+			"problemMatcher": [],
+			"dependsOn": "CMake: Build Release",
+			"detail": "安装项目"
+		},
+		{
+			"label": "Setup and Build Debug",
+			"dependsOrder": "sequence",
+			"dependsOn": [
+				"Python: Setup Project",
+				"CMake: Build Debug"
+			],
+			"group": "build",
+			"detail": "先运行项目配置，然后构建 Debug 版本"
+		}
+	]
+}

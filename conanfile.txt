@@ -1,0 +1,25 @@
+[requires]
+nlohmann_json/3.11.3
+spdlog/1.13.0
+gtest/1.14.0
+asio/1.29.0
+yaml-cpp/0.8.0
+openssl/1.1.1w
+
+[generators]
+CMakeDeps
+CMakeToolchain
+
+[options]
+spdlog/*:shared=False
+asio/*:header_only=True
+yaml-cpp/*:shared=False
+gtest/*:shared=False
+openssl/*:shared=True
+
+[imports]
+bin, *.dll -> ./bin
+lib, *.dylib* -> ./bin
+lib, *.so* -> ./bin 
+
+ 

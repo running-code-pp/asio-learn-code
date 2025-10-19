@@ -1,0 +1,9 @@
+log:
+    log_file: "build/Debug/bin/log/log.txt"
+    log_level: "debug"
+    max_file_size: 10485760  # 10 MB
+    max_files: 5
+    enable_console: true
+    enable_file: true
+    enable_color: true
+    enable_async: true

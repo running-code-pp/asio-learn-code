@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            // "compileCommands": "${workspaceFolder}/compile_commands.json",
+            "windowsSdkVersion": "10.0.26100.0",
+            "compilerPath": "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "windows-msvc-x64",
+            "includePath": [
+                "C:/Users/33209/.conan2/p/asioaf1eb798e94b4/p/include",
+                "C:/Users/33209/.conan2/p/nlohm0567ffc90cfc1/p/include",
+                "C:/Users/33209/.conan2/p/spdlobdb473b7f52b9/s/src/include",
+                "C:/Users/33209/.conan2/p/yaml-ecb910d68e553/s/src/include",
+                "C:/Users/33209/.conan2/p/gtest5fa386df87de0/s/src/googletest/include",
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/include/asio_learn"
+            ]
+        },
+        {
+            "name": "Linux",
+            // "compileCommands": "${workspaceFolder}/compile_commands.json",
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
